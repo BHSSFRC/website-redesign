@@ -1,8 +1,5 @@
 a:hover {
-    color: hotpink;
-}
-a {
-	color: black;
+    color: #28aca7;;
 }
 html,body {
 background: url(background.jpg) no-repeat center center fixed;

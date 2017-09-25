@@ -14,3 +14,6 @@ background-size: cover;         /* Generic*/
 h4 {
 	text-align: center;
 }
+#activeTitle {
+	color: white;
+}

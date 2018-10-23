@@ -5,6 +5,7 @@
 		<!--#28aca7;-->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="./script/header.js"></script>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -13,27 +14,8 @@
 		<body>
 			<div class="container-fluid" style="margin:0px; padding:0px; background-image:background.jpg;" >
 				<div class="container-fluid" style="margin:0px; padding:0px;background-color:#28aca7;">
-					<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:#28aca7; border:0px; margin:0px;">
-						<div class="container-fluid">
-							<div class="navbar-header">
-								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span> 
-								</button>
-								<a class="navbar-brand" href="quadrangleindex.html" style="color:black" >The Quadrangles</a>
-							</div>
-							<div class="collapse navbar-collapse" id="myNavbar">
-								<ul class="nav navbar-nav">
-									<li><a href="index.html">Home</a></li>
-									<li><a href="sponsors.html">Sponsors</a></li>
-									<li><a href="aboutus.html">About Us</a></li> 
-									<li><a href="studentresources.html">Student Resources</a></li>
-									<li><a href="history.html">History</a></li>
-									<li><a href="calendar.html">Calendar</a></li>
-								</ul>
-							</div>
-						</div>
+					<nav id = "headernav" class="navbar navbar-inverse navbar-fixed-top" style="background-color:#28aca7; border:0px; margin:0px;">
+						<!-- inserted by JS -->
 					</nav>
 				</div>
 				<!--navbar ends here, title starts-->
@@ -131,5 +113,6 @@
 				</div>	
 				<br/>
 			</div> <!--end of page-->
+			<script>insertheader();</script>
 		</body>
 	</html>
